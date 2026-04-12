@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>405core | 四位工程师，高密度交付</title>
+    <meta
+      id="meta-description"
+      name="description"
+      content="405core 是一支由 4 位工程师组成的高密度交付团队，擅长把模糊需求压成可上线的品牌站、前端产品与关键页面。"
+    />
+    <meta name="theme-color" content="#0d1014" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="405core" />
+    <meta
+      id="meta-og-title"
+      property="og:title"
+      content="405core | 四位工程师，高密度交付"
+    />
+    <meta
+      id="meta-og-description"
+      property="og:description"
+      content="405core 是一支由 4 位工程师组成的高密度交付团队，擅长把模糊需求压成可上线的品牌站、前端产品与关键页面。"
+    />
+    <meta id="meta-og-locale" property="og:locale" content="zh_CN" />
+    <meta property="og:image" content="./assets/social-card.svg" />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:alt" content="405core social card" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      id="meta-twitter-title"
+      name="twitter:title"
+      content="405core | 四位工程师，高密度交付"
+    />
+    <meta
+      id="meta-twitter-description"
+      name="twitter:description"
+      content="405core 是一支由 4 位工程师组成的高密度交付团队，擅长把模糊需求压成可上线的品牌站、前端产品与关键页面。"
+    />
+    <meta name="twitter:image" content="./assets/social-card.svg" />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="./assets/wordmark.svg" as="image" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div class="page-backdrop" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="405core home">
+        <img class="brand-mark" src="./assets/wordmark.svg" alt="405core" />
+        <span class="brand-meta" data-i18n="nav.brandMeta">高密度交付</span>
+      </a>
+
+      <div class="header-meta">
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a class="nav-link" href="#services" data-nav-target="services" data-i18n="nav.services"
+            >服务</a
+          >
+          <a class="nav-link" href="#process" data-nav-target="process" data-i18n="nav.process"
+            >流程</a
+          >
+          <a class="nav-link" href="#contact" data-nav-target="contact" data-i18n="nav.contact"
+            >联系</a
+          >
+        </nav>
+
+        <button class="lang-toggle" type="button" data-lang-toggle aria-label="Switch language">
+          EN
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" data-section="home">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow reveal" data-reveal data-i18n="hero.eyebrow">
+              405core / 外包工程团队
+            </p>
+            <h1 class="hero-title reveal delay-1" data-reveal data-i18n="hero.title">
+              外包就在405core!
+            </h1>
+            <p class="hero-summary reveal delay-2" data-reveal data-i18n="hero.summary">
+              405core 是一个轻量、密集、反应快的工程团队。我们擅长把模糊需求压成可执行范围，把关键页面、系统能力和上线节奏一起推进到可交付状态。
+            </p>
+
+            <div class="hero-actions reveal delay-3" data-reveal>
+              <a class="button button-primary" href="#contact" data-i18n="hero.primaryCta"
+                >发起合作</a
+              >
+              <a class="button button-secondary" href="#process" data-i18n="hero.secondaryCta"
+                >查看协作方式</a
+              >
+            </div>
+          </div>
+
+          <aside class="hero-aside reveal delay-2" data-reveal>
+            <p class="hero-band" data-i18n="hero.band">4 engineers / high-density delivery</p>
+            <div class="hero-sigil" aria-hidden="true">
+              <span>405</span>
+            </div>
+            <div class="hero-panel">
+              <p class="hero-panel-kicker" data-i18n="hero.panel.kicker">工作方式</p>
+              <p class="hero-panel-body" data-i18n="hero.panel.body">
+                不靠堆人，不靠流程表演。直接拆问题、拉齐边界、推进上线。
+              </p>
+            </div>
+            <ul class="hero-metrics" data-hero-metrics></ul>
+          </aside>
+        </div>
+
+        <div class="hero-marquee" aria-hidden="true" data-hero-marquee></div>
+      </section>
+
+      <section class="section section-services" id="services" data-section="services">
+        <div class="section-head reveal" data-reveal>
+          <p class="eyebrow" data-i18n="services.eyebrow">能做什么</p>
+          <h2 data-i18n="services.title">把外包做成一支高密度交付队伍。</h2>
+          <p class="section-intro" data-i18n="services.intro">
+            适合需要速度、判断和工程落地的人，不适合只想堆工时的项目。
+          </p>
+        </div>
+
+        <div class="service-list" data-services-list></div>
+      </section>
+
+      <section class="section section-process" id="process" data-section="process">
+        <div class="section-head reveal" data-reveal>
+          <p class="eyebrow" data-i18n="process.eyebrow">怎么合作</p>
+          <h2 data-i18n="process.title">沟通短，推进快，边界清楚。</h2>
+          <p class="section-intro" data-i18n="process.intro">
+            我们用最少的往返，换取可预期的交付密度。
+          </p>
+        </div>
+
+        <div class="process-layout">
+          <div class="process-rail" aria-hidden="true">
+            <span class="process-rail-fill"></span>
+          </div>
+          <ol class="process-list" data-process-list></ol>
+        </div>
+      </section>
+
+      <section class="section section-contact" id="contact" data-section="contact">
+        <div class="contact-shell reveal" data-reveal>
+          <p class="eyebrow" data-i18n="contact.eyebrow">联系 405core</p>
+          <h2 class="contact-title" data-i18n="contact.title">
+            如果你需要一支能把事情直接推进的人。
+          </h2>
+          <p class="contact-body" data-i18n="contact.body">
+            发一个简短需求给我们。项目阶段、预期时间、已有素材都可以直接写。
+          </p>
+
+          <div class="contact-actions">
+            <a class="contact-email" data-email-link data-email-text href="mailto:ethancheung2088@outlook.com"
+              >ethancheung2088@outlook.com</a
+            >
+            <a class="button button-secondary" data-email-link href="mailto:ethancheung2088@outlook.com" data-i18n="contact.primaryCta"
+              >发送邮件</a
+            >
+          </div>
+
+          <p class="contact-note" data-i18n="contact.response">
+            默认以邮件作为合作入口，通常会在 24 小时内给出首轮反馈。
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img class="footer-mark" src="./assets/wordmark.svg" alt="405core" />
+        </div>
+
+        <button class="lang-toggle lang-toggle-secondary" type="button" data-lang-toggle aria-label="Switch language">
+          EN
+        </button>
+      </div>
+
+      <p class="footer-tagline" data-i18n="footer.tagline">
+        405core 是一支为高密度交付而生的外包工程团队。
+      </p>
+      <p class="footer-note" data-i18n="footer.note">
+        一切尽在405core。
+      </p>
+      <p class="footer-copy">
+        <span>&copy;</span>
+        <span data-current-year></span>
+        <span>405core</span>
+      </p>
+    </footer>
+  </body>
+</html>

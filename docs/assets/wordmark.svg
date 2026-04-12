@@ -1,0 +1,8 @@
+<svg width="440" height="120" viewBox="0 0 440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0.5" y="0.5" width="439" height="119" rx="15.5" stroke="#FFFFFF" stroke-opacity="0.16"/>
+  <path d="M32 80V64H66V47H43V31H66V14H81V80H66V80H32Z" fill="#F5F1E8"/>
+  <path d="M96 80V14H111V31H129V47H111V64H132V80H96Z" fill="#D9FF57"/>
+  <line x1="144" y1="18" x2="144" y2="80" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
+  <text x="168" y="56" fill="#F5F1E8" font-family="Avenir Next Condensed, Arial Narrow, Helvetica Neue, sans-serif" font-size="42" font-weight="700" letter-spacing="-2">core</text>
+  <text x="170" y="86" fill="#A7ADB8" font-family="Avenir Next, PingFang SC, sans-serif" font-size="14" letter-spacing="4">HIGH-DENSITY DELIVERY</text>
+</svg>

@@ -3,7 +3,7 @@
   <rect x="38" y="38" width="1124" height="554" rx="26" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="2"/>
   <path d="M0 0H1200V630H0V0Z" fill="url(#paint0_radial)"/>
   <path d="M0 0H1200V630H0V0Z" fill="url(#paint1_linear)" fill-opacity="0.08"/>
-  <g opacity="0.14">
+  <g opacity="0.12">
     <path d="M0 126H1200" stroke="white"/>
     <path d="M0 252H1200" stroke="white"/>
     <path d="M0 378H1200" stroke="white"/>
@@ -16,13 +16,35 @@
     <path d="M900 0V630" stroke="white"/>
     <path d="M1050 0V630" stroke="white"/>
   </g>
-  <text x="84" y="122" fill="#D9FF57" font-family="Avenir Next, PingFang SC, sans-serif" font-size="22" letter-spacing="8">405CORE / OUTSOURCED ENGINEERING UNIT</text>
-  <text x="84" y="300" fill="#F5F1E8" font-family="Avenir Next Condensed, Arial Narrow, Helvetica Neue, sans-serif" font-size="170" font-weight="700" letter-spacing="-10">405core</text>
-  <text x="88" y="378" fill="#F5F1E8" font-family="Avenir Next Condensed, Arial Narrow, Helvetica Neue, sans-serif" font-size="52" font-weight="700" letter-spacing="-1">4 engineers, high-density delivery.</text>
-  <text x="88" y="448" fill="#A7ADB8" font-family="Avenir Next, PingFang SC, sans-serif" font-size="28">Fast response. Clear boundaries. GitHub Pages ready brand fronts and product surfaces.</text>
-  <text x="900" y="520" fill="#FFFFFF" fill-opacity="0.18" font-family="Avenir Next Condensed, Arial Narrow, Helvetica Neue, sans-serif" font-size="220" font-weight="700" letter-spacing="-16">405</text>
+  <g opacity="0.62">
+    <path d="M868 148L944 104" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="2"/>
+    <path d="M868 148L1018 180" stroke="#D9FF57" stroke-opacity="0.46" stroke-width="2"/>
+    <path d="M868 148L930 250" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="2"/>
+    <path d="M960 270L1018 180" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
+    <path d="M960 270L1066 256" stroke="#D9FF57" stroke-opacity="0.42" stroke-width="2"/>
+    <path d="M930 250L1012 338" stroke="#FFFFFF" stroke-opacity="0.2" stroke-width="2"/>
+    <path d="M1018 180L1098 124" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
+    <path d="M1066 256L1120 322" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
+    <path d="M1012 338L1090 418" stroke="#D9FF57" stroke-opacity="0.44" stroke-width="2"/>
+    <circle cx="868" cy="148" r="13" fill="#D9FF57"/>
+    <circle cx="960" cy="270" r="13" fill="#D9FF57"/>
+    <circle cx="930" cy="250" r="11" fill="#F5F1E8"/>
+    <circle cx="944" cy="104" r="8" fill="#F5F1E8" fill-opacity="0.78"/>
+    <circle cx="1018" cy="180" r="8" fill="#F5F1E8" fill-opacity="0.78"/>
+    <circle cx="1066" cy="256" r="8" fill="#F5F1E8" fill-opacity="0.78"/>
+    <circle cx="1012" cy="338" r="8" fill="#F5F1E8" fill-opacity="0.78"/>
+    <circle cx="1098" cy="124" r="7" fill="#F5F1E8" fill-opacity="0.58"/>
+    <circle cx="1120" cy="322" r="7" fill="#F5F1E8" fill-opacity="0.58"/>
+    <circle cx="1090" cy="418" r="7" fill="#F5F1E8" fill-opacity="0.58"/>
+  </g>
+  <text x="84" y="122" fill="#D9FF57" font-family="Avenir Next, PingFang SC, sans-serif" font-size="22" letter-spacing="8">405CORE / OUTSOURCED ENGINEERING TEAM</text>
+  <text x="84" y="300" fill="#F5F1E8" font-family="Avenir Next Condensed, Arial Narrow, Helvetica Neue, sans-serif" font-size="168" font-weight="700" letter-spacing="-10">405core</text>
+  <text x="88" y="378" fill="#F5F1E8" font-family="Avenir Next Condensed, Arial Narrow, Helvetica Neue, sans-serif" font-size="52" font-weight="700" letter-spacing="-1">4 engineers orchestrating an agent mesh.</text>
+  <text x="88" y="448" fill="#A7ADB8" font-family="Avenir Next, PingFang SC, sans-serif" font-size="28">AI-assisted delivery for brand fronts, product surfaces, and critical launches.</text>
+  <text x="878" y="510" fill="#FFFFFF" fill-opacity="0.2" font-family="Avenir Next Condensed, Arial Narrow, Helvetica Neue, sans-serif" font-size="170" font-weight="700" letter-spacing="-10">043</text>
+  <text x="882" y="548" fill="#D9FF57" font-family="Avenir Next, PingFang SC, sans-serif" font-size="18" letter-spacing="5">AGENTS ONLINE</text>
   <defs>
-    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(974 126) rotate(124.119) scale(268.556 439.276)">
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(970 132) rotate(124.119) scale(290 452)">
       <stop stop-color="#D9FF57" stop-opacity="0.18"/>
       <stop offset="1" stop-color="#D9FF57" stop-opacity="0"/>
     </radialGradient>
